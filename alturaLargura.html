@@ -5,9 +5,16 @@
     <meta charset="UTF-8">
     <title>Altura e Largura</title>
     <style>
-        body {
+        html,body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
             font-size: 40px;
             background-color: coral;
+            
         }
 
         div {
@@ -17,12 +24,22 @@
         span {
             background-color: dodgerblue;
         }
+
+        p {
+            background-color: red;
+        }
+
+        span,div,p {
+            width: 50%;
+            height: 250px;
+            height: 50%;
+            display: inline-block;
+        }
     </style>
 </head>
 
 <body>
-    <div>Título</div>
-    <span>Subtítulo</span>
+    <div>Título</div><span>Subtítulo</span><p>Teste</p>
 </body>
 
 </html>
